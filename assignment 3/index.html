@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        #image_display{
+            height:20%;
+            width:30%;
+            padding: 9% 25%;
+}
+        
+        #form1 label{
+            position: absolute;
+            z-index: 2;
+            left: 15%;
+            top: 13%;
+            font-size: 1.5rem;
+}
+
+        
+        #form1 input{
+            position: absolute;
+            height: 2rem;
+            z-index: 1;
+            width: 15rem;
+            left: 30%;
+            top: 12%;
+            border-radius: 0.5rem        
+}
+        #form1 button{
+            top: 13%;
+            position: absolute;
+            z-index: 1;
+            height: 2rem;
+            width: 5rem;
+            left: 50%        
+            
+        }
+    </style>
+</head>
+<body >
+
+    <form action="#" id="form1">
+        <label style="color:white">Enter anime name: </label>
+        <input type="text" name="name" id="anime-input">
+        <button type="submit">Get pic</button>
+    </form>
+    <img id="image_display" >
+    <script src="code.js"></script> 
+</body>
+</html>
